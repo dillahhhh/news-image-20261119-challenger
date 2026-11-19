@@ -177,3 +177,22 @@ against the 21 Nov 07:00 WIB deadline and the 19-submission budget.
   (day cap 10). Deadline: 21 Nov 2026 07:00 WIB.
 - Status: BUILD ONLY. No submit command run. Submit needs bos's explicit
   order on this exact entry + a fresh Ting review.
+
+---
+
+## Submit addendum (19 Nov 2026 ~23:30 WIB — Force_Last submit on bos's explicit order)
+
+- HONEST LABEL: this submit goes out WITHOUT a fresh Ting review, on bos's
+  explicit "sub langsung" order (23:24 WIB) after he was told Ting review
+  was still pending. Our own 5-gate self-review verdict: GO (thin),
+  plausible ~990 vs the ~990.1 Top-10 line — not proven. This entry is
+  NOT Ting-approved. Do not present it as such.
+- Submit type: Force_Last — replaces live entry "Elegant Foundry"
+  (01a1f3cd-596f-7429-ae94-ce752752edab, judge 959.408) as the final entry.
+  Intended by bos (rebuild ordered to reach Top 10).
+- Submitted commit: fd94aed321976312f37c21bfe6bf63edf7483a8e (repo
+  dillahhhh/news-image-20261119-challenger, public, created
+  2026-11-19T16:25:50Z, after the 19 Nov 00:00 UTC opening).
+- `.makefun/owner.json` (this commit, bookkeeping — NOT part of the
+  submitted commit): {"wallet": "DFCtzctdpp5LYq324fCboMBbqQuwLB9EBKNv6eRYM1AA"}
+  (Phantom payout wallet).
