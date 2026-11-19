@@ -1,7 +1,11 @@
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/dillahhhh/news-image-20261119-challenger/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/dillahhhh/news-image-20261119-challenger/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
 # THE WORLD IN ONE DAY — 19 November 2026 (Challenger)
 
 A one-page newspaper front page summing up Thursday 19 November 2026,
-built for make.fun competition `news-image-20261119` (deadline 21 Nov 2026
+built for the [make.fun competition `news-image-20261119`](https://make.fun/bounty/news-image-20261119) (deadline 21 Nov 2026
 07:00 WIB). 41 verified stories: 3 illustrated heroes + 10 illustrated
 mains + 28 briefs, plus a stat strip, a region-count bar, a dotted world
 map with numbered pins, a REPORTED / CLAIM / FORECAST confidence legend,
