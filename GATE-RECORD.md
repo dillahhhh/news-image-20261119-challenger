@@ -110,3 +110,70 @@ The challenger is ready to submit as the new final entry (replacing
 user orders the submit. No further revision is required for the
 Top-10 chase; any further art polish would be diminishing returns
 against the 21 Nov 07:00 WIB deadline and the 19-submission budget.
+
+---
+
+## Coordinator addendum (19 Nov 2026, ~23:05 WIB — verification + packaging)
+
+### Independent verification by the coordinator
+- Read the final PNG myself: 1024×1024, 363,389 bytes, sha256
+  `f8904c6f74625fcde5e3e3c0336cbb235f4a6ff3d2ba2fbf62410dfa773bf81a`
+  (matches the builder's hash). Masthead + "Thursday 19 November 2026"
+  correct and dominant; stat strip, region bar (7/8/11/3/4/2/6 = 41),
+  3 hero illustrations, 10 main illustrations, dotted world map with 13
+  numbered pins + pin key, 28 numbered briefs, REPORTED/CLAIM/FORECAST
+  legend, DATE CHECK strip (6 excluded near-misses), footer count
+  "41 STORIES · 7 REGIONS" — all present, no clipped or overlapping text
+  observed. Framing traps avoided in the visible text: Shenzhen
+  declaration "toward Peace" (no "signed"/ended-the-war claim), Gulf
+  "targets" (tagged CLAIM), UK "1,000+ strike drones" (not cruise
+  missiles), Florida "70+ rescued from one flooded Hollywood block"
+  (no "300+ rescues"), Bangladesh toll per police figure, COP31 (never
+  COP30), Voyager 1 only as a 19 Nov NASA confirmation.
+- Determinism: builder-verified (rendered twice after the final art
+  revision, identical sha256 both times; main.ts copy test identical).
+- Top-10 analysis: full write-up in `TOP10-ANALYSIS.md` in this repo
+  (leaderboard 8,317 entries; Top-10 line judge 990.123; every top-10
+  image carries drawn illustrations, a world map with numbered pins, a
+  stat strip, a DATE CHECK footer, a confidence legend and a region bar;
+  ICJ Myanmar ruling is the top-4 story in every top-10 image and was
+  missing from the live entry).
+
+### Transcript bundle + full kit check (coordinator)
+- Usage rows: `~/.makefun/muse-usage-news-image-20261119-challenger.jsonl`
+  (6 rows: 3 research subagents × 1, coordinator × 2, builder × 1 —
+  the expected shape; each subagent contributes exactly its final
+  message's row, as in the news-image-20261118 file's 12 one-row agents).
+- Bundle: `makefun bundle --no-discover` with 5 sessions (builder,
+  coordinator, 3 research subagents) + `--muse-usage` + `--harness Muse
+  --harness-version 1 --provider meta --model muse-spark-1.3 --effort
+  default --mcp none --parent-session <main-chat session>
+  --prompt-file (bos's words: "kerjain ulang sampe masuk 10 besar yg
+  image 19", handed-off). The parent session is required by the bundle
+  tool (a handed-off prompt must carry its parent chain); it is carried
+  whole under context-sessions/ (45 MB raw), which makes the bundle
+  14.4 MB — the tool's own behaviour, not a hand edit. Prompt recorded
+  verbatim; 6 usage rows attached; secrets redacted by the tool.
+- Full check with transcripts: **13 passed, 0 failed, 6 skipped, 5
+  checked at submission** — "ok: every check run here passes".
+  transcripts_present, thinking_wellformed, thinking_in_window,
+  thinking_reproduces (58.3% authored, ≥30% required), thinking_priced
+  (6 records), thinking_revised (main.ts from 2 messages),
+  transcripts_run_record all PASS. thinking_own_work is a note, not a
+  rejection (sessions fetched our OWN live entry's artifact
+  01a1f3cd — Elegant Foundry — for the top-10 comparison).
+- Remaining at-submission checks (NOT done — build only, no submit):
+  repo_public, repo_owner, repo_created_after_open (public repo created
+  after 19 Nov 00:00 UTC), commit_in_repo, duplicate_snapshot. At
+  submit time: create a public repo under dillahhhh, push this commit,
+  add `.makefun/owner.json` naming an entry wallet, submit that commit.
+- Local git: first commit `49e19e9` (9 files); this addendum +
+  TOP10-ANALYSIS.md committed on top before the final bundle. The final
+  bundle sha + persistent copy are recorded in the coordinator's report
+  to the parent (bundle file itself is not part of the repo).
+
+### Attempts / deadline
+- Attempts: 1 used of 20 total (live entry only), 19 left; 9 left today
+  (day cap 10). Deadline: 21 Nov 2026 07:00 WIB.
+- Status: BUILD ONLY. No submit command run. Submit needs bos's explicit
+  order on this exact entry + a fresh Ting review.
