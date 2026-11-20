@@ -216,7 +216,7 @@ def art_indonesia():
 <path d="M71 23 Q78 26 85 23 Z" fill="#c9a227"/><path d="M115 23 Q122 26 129 23 Z" fill="#c9a227"/>
 <g transform="rotate(30 165 24)"><rect x="152" y="19" width="26" height="8" rx="2" fill="#6b4f2e"/><rect x="174" y="16" width="7" height="14" rx="2" fill="#8a6d4b"/></g>
 <rect x="142" y="34" width="48" height="4" rx="2" fill="#5b4a33"/>
-<rect x="46" y="26" width="24" height="11" rx="2" fill="#111"/><text x="58" y="34" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#fff" text-anchor="middle">Rp1bn</text>
+<rect x="46" y="26" width="24" height="11" rx="2" fill="#111"/><text x="58" y="34" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#fff" text-anchor="middle">Rp1B</text>
 </svg>"""
 
 
@@ -424,7 +424,7 @@ def build_html(data):
   }}
   .briefbox {{ flex: 1; }}
   .briefs {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px 12px; grid-auto-flow: column; grid-template-rows: repeat(6, auto); }}
-  .brief {{ font-size: 11px; line-height: 1.35; color: #222; }}
+  .brief {{ font-size: 12px; line-height: 1.35; color: #222; }}
   .brief b {{ color: #111; }}
   .legend {{
     display: flex; justify-content: center; gap: 16px; margin-top: 3px;

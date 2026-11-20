@@ -49,13 +49,13 @@
       "region": "WORLD"
     },
     {
-      "fact": "Shares fell 2.9% at the close.",
+      "fact": "Reported Tue; shares −2.9% at Wed's close.",
       "headline": "Nvidia record $115.8B quarter",
       "n": 22,
       "region": "AMERICAS"
     },
     {
-      "fact": "WHO counts 11,300+ cases; NRC: “out of control”.",
+      "fact": "WHO counts 11,300+ cases in DR Congo.",
       "headline": "Ebola emergency kept",
       "n": 23,
       "region": "AFRICA"
@@ -67,14 +67,14 @@
       "region": "EUROPE"
     },
     {
-      "fact": "Fed held rates steady; a December hike is ~95% priced in.",
-      "headline": "Fed minutes turn hawkish",
+      "fact": "Rates held; Dec hike ~95% priced by markets.",
+      "headline": "Fed minutes signal more hikes",
       "n": 25,
       "region": "AMERICAS"
     },
     {
-      "fact": "Awami League shutdown; 565 arrested in Dhaka.",
-      "headline": "Bangladesh lockdown",
+      "fact": "565 arrested in Dhaka.",
+      "headline": "Awami League shutdown hits Dhaka",
       "n": 26,
       "region": "ASIA-PACIFIC"
     },
@@ -91,14 +91,14 @@
       "region": "WORLD"
     },
     {
-      "fact": "NZ recover from 5 wickets for 70 to 243 for 5: Nicholls 113 not out on day one.",
+      "fact": "NZ 243-5 on day one after slumping to 70-5; Nicholls 113*.",
       "headline": "NZ rescue India Test",
       "n": 29,
       "region": "OCEANIA"
     }
   ],
   "date_label": "Thursday 19 November 2026",
-  "datecheck": "All stories: 19 Nov 2026",
+  "datecheck": "Stories: 19 Nov 2026",
   "footer": "29 STORIES · 7 REGIONS · THURSDAY, 19 NOVEMBER 2026",
   "heroes": [
     {
@@ -111,7 +111,7 @@
     },
     {
       "art": "gta",
-      "body": "Live at midnight local time on PS5 and Xbox Series X|S. Metacritic 99/100 — tied for the highest score in the site’s history. 15.9m pre-orders banked. No PC version yet.",
+      "body": "Live at midnight local time on PS5 and Xbox Series X|S. Metacritic 99/100 — tied for the highest score in the site’s history. 15.9m pre-orders. No PC version yet.",
       "headline": "GTA VI launches worldwide",
       "kicker": "GTA VI — OUT NOW · THU 19 NOV",
       "n": 2,
@@ -137,7 +137,7 @@
     },
     {
       "art": "gulf",
-      "fact": "Iran said its drones targeted the Ali Al-Salem base; Kuwait says it intercepted them, no damage. Bahrain stopped a 4th attack in 6 days.",
+      "fact": "Iran said its drones targeted the Ali Al-Salem base; Kuwait says it intercepted them, no damage. Bahrain says it stopped a 4th attack in 6 days.",
       "headline": "Iran targets US base in Kuwait",
       "n": 5,
       "region": "MIDDLE EAST",
@@ -177,7 +177,7 @@
     },
     {
       "art": "colombia",
-      "fact": "Unions, teachers and students march in Bogotá, Medellín, Cali and Barranquilla against the Ley de Rescate Económico (Bill 477).",
+      "fact": "Unions, teachers and students march in Bogotá, Medellín, Cali and Barranquilla against the economic rescue bill (No. 477).",
       "headline": "Colombia’s national strike",
       "n": 10,
       "region": "AMERICAS",
@@ -193,7 +193,7 @@
     },
     {
       "art": "indonesia",
-      "fact": "DPR ends an 18-year wait: courts may seize assets of ≥Rp1B without a conviction where the offender died, fled or cannot be found.",
+      "fact": "Parliament (DPR) ends an 18-year wait: courts may seize assets of ≥Rp1B without a conviction where the offender died, fled or cannot be found.",
       "headline": "Indonesia passes asset-seizure law",
       "n": 12,
       "region": "ASIA-PACIFIC",
@@ -254,8 +254,8 @@
       "num": "200,000"
     },
     {
-      "label": "Nvidia −2.9% after record quarter",
-      "num": "$115.8B"
+      "label": "Florida rain in 24 h",
+      "num": "15.3 in"
     },
     {
       "label": "ICJ vote: genocide found",

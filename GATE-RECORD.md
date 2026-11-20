@@ -213,3 +213,11 @@ against the 21 Nov 07:00 WIB deadline and the 19-submission budget.
 - Kept as-is: huge dated masthead, REPORTED/CLAIM/FORECAST tags, region strip, one-line subtitle. No news fact or number changed; no invented figures.
 - Render: tools/render.py layout guard passes (no overflow, no clipped text). New entry.png 1024×1024, 310,871 bytes, sha256 f320e44fcf1b3dfcd27afca171d73321dfa3df57e155bc4fa9cb34f9c10b53f5 — rendered twice, identical bytes. Viewed full-size + at 300px: masthead, hero headlines and main headlines legible at 300px; no garbled/truncated text.
 - Status: REVISION BUILT ONLY. No bundle, no submit. Submit needs bos's separate explicit "submit". Entries close 21 Nov 2026 07:00 WIB.
+
+## Revision 3 (Claude round-3 REVISI)
+- Strip: Nvidia cell replaced with Florida "15.3 in / Florida rain in 24 h" (genuinely Thursday, distinct story). Item 22 now dated: "Reported Tue; shares −2.9% at Wed's close" (verified: earnings Tue 17 Nov evening, −2.9% at Wed 18 Nov close).
+- DATE CHECK: "All stories: 19 Nov 2026" -> "Stories: 19 Nov 2026".
+- Attribution: tile 5 "Bahrain says it stopped a 4th attack in 6 days" (research: Bahrain said it intercepted another attack, 4th in 6 days); item 25 headline "Fed minutes signal more hikes" (research headline) + "~95% priced by markets"; hero 2 dropped "banked".
+- Jargon decoded: item 29 "NZ 243-5 on day one after slumping to 70-5; Nicholls 113*"; Ebola country added (DR Congo, verified) + NRC quote dropped (spelled-out form clipped at 12px; Claude's own fallback); tile 12 "Parliament (DPR)" + icon "Rp1B"; tile 10 "economic rescue bill (No. 477)"; item 26 "Awami League shutdown hits Dhaka".
+- Legibility: Also text 11px -> 12px (guard passes, no clipping, no cut items); lead 1 body already 3 lines, unchanged.
+- No news fact or number changed; nothing invented.
