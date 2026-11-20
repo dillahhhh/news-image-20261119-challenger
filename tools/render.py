@@ -318,7 +318,7 @@ def heroes_html(heroes):
         <div class="hero-art">{ART[h['art']]()}</div>
         <div class="hero-kick">{esc(h['kicker'])} <span class="tag">{esc(h['tag'])}</span></div>
         <h2 class="clip clamp2">{h['n']}. {esc(h['headline'])}</h2>
-        <p class="clip clamp4">{esc(h['body'])}</p>
+        <p class="clip clamp5">{esc(h['body'])}</p>
       </article>"""
         for h in heroes
     )
@@ -332,7 +332,7 @@ def mains_html(mains):
         <div class="main-art">{ART[m['art']]()}</div>
         <div class="main-meta"><span class="region">{esc(m['region'])}</span> <span class="tag">{esc(m['tag'])}</span></div>
         <h3 class="clip clamp2">{m['n']}. {esc(m['headline'])}</h3>
-        <p class="clip clamp4">{esc(m['fact'])}</p>
+        <p class="clip clamp5">{esc(m['fact'])}</p>
       </article>"""
         for m in mains
     )
@@ -369,13 +369,13 @@ def build_html(data):
   body {{ background: #fff; font-family: "DejaVu Sans", sans-serif; color: #111; }}
   #page {{
     width: {PAGE_W}px; height: {PAGE_H}px; overflow: hidden;
-    padding: 8px 20px 7px; background: #fdfcf6;
+    padding: 6px 20px 5px; background: #fdfcf6;
   }}
   .masthead {{ text-align: center; border-bottom: 3px solid #111; padding-bottom: 6px; }}
   .paper {{ font-size: 14px; font-weight: bold; letter-spacing: 5px; }}
   .date {{
     font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: 800;
-    font-size: 31px; line-height: 1.05; letter-spacing: 0.5px; margin-top: 1px;
+    font-size: 29px; line-height: 1.05; letter-spacing: 0.5px; margin-top: 1px;
   }}
   .subhead {{
     color: #9b1c1c; font-size: 12px; font-weight: bold; letter-spacing: 0.6px;
@@ -383,25 +383,25 @@ def build_html(data):
   }}
   .stats {{
     display: grid; grid-template-columns: repeat(6, 1fr);
-    border-bottom: 1px solid #999; padding: 5px 0 6px;
+    border-bottom: 1px solid #999; padding: 4px 0 5px;
   }}
   .stat {{ text-align: center; border-left: 1px solid #ccc; padding: 0 4px; }}
   .stat:first-child {{ border-left: none; }}
-  .stat-num {{ font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: 800; font-size: 17px; color: #9b1c1c; }}
-  .stat-label {{ font-size: 8.5px; color: #444; line-height: 1.25; }}
+  .stat-num {{ font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: 800; font-size: 18px; color: #9b1c1c; }}
+  .stat-label {{ font-size: 9px; color: #444; line-height: 1.25; }}
   .regions {{
-    text-align: center; font-size: 10px; letter-spacing: 0.8px;
-    padding: 4px 0 5px; border-bottom: 1px solid #999;
+    text-align: center; font-size: 10.5px; letter-spacing: 0.8px;
+    padding: 3px 0 4px; border-bottom: 1px solid #999;
   }}
   .regions b {{ color: #9b1c1c; }}
-  .heroes {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 14px; padding-top: 7px; }}
-  .hero-art svg {{ width: 100%; height: 68px; display: block; border: 1px solid #bbb; }}
-  .hero-kick {{ color: #9b1c1c; font-size: 9.5px; font-weight: bold; letter-spacing: 1.2px; margin-top: 4px; }}
+  .heroes {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 14px; padding-top: 5px; }}
+  .hero-art svg {{ width: 100%; height: 60px; display: block; border: 1px solid #bbb; }}
+  .hero-kick {{ color: #9b1c1c; font-size: 9px; font-weight: bold; letter-spacing: 0.8px; margin-top: 4px; white-space: nowrap; }}
   .hero h2 {{
     font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: 800;
-    font-size: 16.5px; line-height: 1.18; margin: 2px 0 3px;
+    font-size: 17.5px; line-height: 1.18; margin: 2px 0 3px;
   }}
-  .hero p {{ font-size: 10.5px; line-height: 1.4; color: #222; }}
+  .hero p {{ font-size: 11.5px; line-height: 1.4; color: #222; }}
   .tag {{
     display: inline-block; background: #e8e2d2; color: #555;
     font-size: 7.5px; font-weight: bold; letter-spacing: 0.8px;
@@ -409,42 +409,39 @@ def build_html(data):
   }}
   .section-head {{
     font-size: 10.5px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase;
-    border-bottom: 2px solid #111; padding-bottom: 2px; margin: 7px 0 6px;
+    border-bottom: 2px solid #111; padding-bottom: 2px; margin: 5px 0 4px;
   }}
-  .mains {{ display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px 12px; }}
-  .main-art svg {{ width: 100%; height: 46px; display: block; border: 1px solid #bbb; }}
+  .mains {{ display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px 12px; }}
+  .main-art svg {{ width: 100%; height: 40px; display: block; border: 1px solid #bbb; }}
   .main-meta {{ margin-top: 3px; }}
   .main .region {{ color: #9b1c1c; font-size: 8.5px; font-weight: bold; letter-spacing: 1px; }}
   .main h3 {{
     font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: 800;
-    font-size: 11.5px; line-height: 1.22; margin: 1px 0 2px;
+    font-size: 12.5px; line-height: 1.22; margin: 1px 0 2px;
   }}
-  .main p {{ font-size: 9.5px; line-height: 1.35; color: #222; }}
-  .lower {{ display: flex; gap: 14px; margin-top: 2px; }}
-  .mapbox {{ width: 326px; flex: none; }}
-  .mapbox h4, .briefbox h4 {{
+  .main p {{ font-size: 10.5px; line-height: 1.35; color: #222; }}
+  .lower {{ display: flex; gap: 14px; margin-top: 0; }}
+  .briefbox h4 {{
     font-size: 10.5px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase;
     border-bottom: 2px solid #111; padding-bottom: 2px; margin-bottom: 4px;
   }}
-  .mapbox svg {{ width: 100%; height: 118px; display: block; }}
-  .mapkey {{ font-size: 8.5px; line-height: 1.4; color: #444; margin-top: 2px; }}
   .briefbox {{ flex: 1; }}
   .briefs {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px 12px; }}
-  .brief {{ font-size: 8.8px; line-height: 1.3; color: #222; }}
+  .brief {{ font-size: 10px; line-height: 1.3; color: #222; }}
   .brief b {{ color: #111; }}
   .legend {{
-    display: flex; justify-content: center; gap: 16px; margin-top: 4px;
-    font-size: 9px; color: #444; border-top: 1px solid #999; padding-top: 3px;
+    display: flex; justify-content: center; gap: 16px; margin-top: 3px;
+    font-size: 9.5px; color: #444; border-top: 1px solid #999; padding-top: 2px;
   }}
   .legend .tag {{ font-size: 8px; }}
   .datecheck {{
     background: #f3ede0; border-left: 4px solid #9b1c1c;
-    font-size: 9px; line-height: 1.35; color: #333; padding: 4px 8px; margin-top: 3px;
+    font-size: 9.5px; line-height: 1.35; color: #333; padding: 4px 8px; margin-top: 2px;
   }}
   .datecheck b {{ color: #9b1c1c; letter-spacing: 0.8px; }}
   .footer {{
-    display: flex; justify-content: space-between; margin-top: 3px;
-    font-size: 9.5px; color: #666; letter-spacing: 0.5px;
+    display: flex; justify-content: space-between; margin-top: 2px;
+    font-size: 10px; color: #666; letter-spacing: 0.5px;
   }}
   .clip {{ overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; }}
   .clamp2 {{ -webkit-line-clamp: 2; }}
@@ -464,11 +461,6 @@ def build_html(data):
   {heroes_html(data['heroes'])}
   {mains_html(data['mains'])}
   <div class="lower">
-    <div class="mapbox">
-      <h4>Where it happened</h4>
-      {map_svg()}
-      <div class="mapkey">Pins 1–13 mark the illustrated stories above: 1 Shenzhen · 2 Vice City · 3 San Francisco · 4 The Hague · 5 Kuwait · 6 Gaza · 7 Bay of Bengal · 8 Florida · 9 Seoul · 10 Bogotá · 11 Canberra · 12 Jakarta · 13 Antalya.</div>
-    </div>
     <div class="briefbox">
       <h4>Also on Thursday 19 November</h4>
       <section class="briefs">{briefs_html(data['briefs'])}

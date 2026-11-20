@@ -196,3 +196,20 @@ against the 21 Nov 07:00 WIB deadline and the 19-submission budget.
 - `.makefun/owner.json` (this commit, bookkeeping — NOT part of the
   submitted commit): {"wallet": "DFCtzctdpp5LYq324fCboMBbqQuwLB9EBKNv6eRYM1AA"}
   (Phantom payout wallet).
+
+---
+
+## Revision addendum (21 Nov 2026 ~02:45–03:00 WIB — Claude REVISI, bos order "Ikutin Claude, bikin revisi")
+
+- Claude review (Sonnet 5.5, saw the image, 02:43 WIB): verdict REVISI. Content strong, day unmistakable; weakness is legibility at small size + fixable faithfulness/consistency slips. Changes applied per Claude's priority list:
+  1. Text bigger, volume cut: "Also" list 28 → 16 briefs (dropped: EU methane rules, India–Japan 2+2, Trump "relax", mRNA vaccine, Jazz–Lakers, S. Africa cricket, Allies Berlin, Somalia expels UAE, Tondelier/Mélenchon, Trump $17bn Asia deals, £1m antibiotic, Takaichi meets Putin); body fonts raised (hero 10.5→11.5px, main 9.5→10.5px, briefs 8.8→10px, clamp4→clamp5 where needed).
+  2. Map REMOVED (numbered pins + tiny key failed "reads from the picture alone"; direct labels would collide at 312px and be mush at 300px). Space went to the full-width briefs at larger type.
+  3. 2017 stat replaced: "730,000 Rohingya fled in 2017" → "$115.8B Nvidia record quarter" (figure from stories.json brief n26, a 19-Nov figure).
+  4. Genocide wording: subhead "MYANMAR GUILTY OF GENOCIDE" → "MYANMAR RESPONSIBLE FOR GENOCIDE"; main #4 headline "committed genocide" → "responsible for genocide"; stat "ICJ vote: genocide proven" → "ICJ vote: genocide found". "First state ever held responsible" KEPT exactly — parent verified true via Reuters + Le Monde.
+  5. Counts reconciled (Claude's "43 vs 41" arithmetic was wrong — the strip summed to 41; the real issue was the per-region counts). Recounted from data with the original hero-assignment method (Shenzhen→WORLD, GTA→WORLD, Anthropic→AMERICAS): EUROPE 4 · AMERICAS 6 · ASIA-PACIFIC 7 · MIDDLE EAST 3 · AFRICA 2 · OCEANIA 2 · WORLD 5 = 29; footer now "29 STORIES".
+  6. All "Wed"/"Wednesday" wording removed (5 spots: Odesa, Dow, Nvidia, Voyager, Florida); "THU 19 NOV" stamp added to all three hero kickers.
+  7. DATE CHECK strip shrunk to one line: "All stories: 19 Nov 2026".
+  8. SKIPPED (optional lead-trio swap): swapping GTA VI out of the heroes for the ICJ ruling would duplicate the subhead's "WORLD COURT: MYANMAR RESPONSIBLE FOR GENOCIDE" as the hero headline, and Claude marked it optional with a redesign warning. Breadth already holds with GTA VI as a hero.
+- Kept as-is: huge dated masthead, REPORTED/CLAIM/FORECAST tags, region strip, one-line subtitle. No news fact or number changed; no invented figures.
+- Render: tools/render.py layout guard passes (no overflow, no clipped text). New entry.png 1024×1024, 310,871 bytes, sha256 f320e44fcf1b3dfcd27afca171d73321dfa3df57e155bc4fa9cb34f9c10b53f5 — rendered twice, identical bytes. Viewed full-size + at 300px: masthead, hero headlines and main headlines legible at 300px; no garbled/truncated text.
+- Status: REVISION BUILT ONLY. No bundle, no submit. Submit needs bos's separate explicit "submit". Entries close 21 Nov 2026 07:00 WIB.

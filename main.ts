@@ -8,8 +8,9 @@
 // Challenger to the live entry "Elegant Foundry": same verified core
 // (Shenzhen / Gulf / GTA VI / Anthropic) plus 13 code-drawn SVG
 // illustrations, the ICJ ruling, Florida, Suneung, Colombia, Australia
-// 4.9%, Indonesia's asset law, a world map, a stat strip and a date
-// check — 41 stories in total.
+// 4.9%, Indonesia's asset law, a stat strip and a date check —
+// 29 stories in total (revision: trimmed briefs, larger type, map
+// removed, counts reconciled).
 //
 // The harness sets MAKEFUN_OUTPUT_DIR; without it we fall back to /output,
 // the path the competition rules name.
