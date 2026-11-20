@@ -49,8 +49,8 @@
       "region": "WORLD"
     },
     {
-      "fact": "Reported Tue; shares −2.9% at Wed's close.",
-      "headline": "Nvidia record $115.8B quarter",
+      "fact": "George 30; Utah ends LA's nine-game streak.",
+      "headline": "Jazz stun Lakers 109–97",
       "n": 22,
       "region": "AMERICAS"
     },
@@ -67,8 +67,8 @@
       "region": "EUROPE"
     },
     {
-      "fact": "Rates held; Dec hike ~95% priced by markets.",
-      "headline": "Fed minutes signal more hikes",
+      "fact": "Rates held; markets price a Dec hike at ~95%.",
+      "headline": "Fed minutes: more hikes possible",
       "n": 25,
       "region": "AMERICAS"
     },
@@ -91,7 +91,7 @@
       "region": "WORLD"
     },
     {
-      "fact": "NZ 243-5 on day one after slumping to 70-5; Nicholls 113*.",
+      "fact": "NZ recover from 70 for 5 to 243 for 5; Nicholls 113 not out.",
       "headline": "NZ rescue India Test",
       "n": 29,
       "region": "OCEANIA"
@@ -103,7 +103,7 @@
   "heroes": [
     {
       "art": "shenzhen",
-      "body": "First-ever trilateral summit ends with a joint Declaration toward Peace — on the UN, nuclear arms, oil and international law. Zelensky warned of a \"new Yalta\".",
+      "body": "First-ever trilateral summit ends with a joint Declaration toward Peace — on the UN, nuclear arms and oil. Zelensky warned of a \"new Yalta\".",
       "headline": "Trump, Xi and Putin meet in Shenzhen",
       "kicker": "THE SUMMIT — SHENZHEN · THU 19 NOV",
       "n": 1,
