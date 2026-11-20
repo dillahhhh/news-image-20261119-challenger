@@ -67,7 +67,7 @@
       "region": "EUROPE"
     },
     {
-      "fact": "Dec hike ~95% priced; Fed HELD rates — no hike.",
+      "fact": "Fed held rates steady; a December hike is ~95% priced in.",
       "headline": "Fed minutes turn hawkish",
       "n": 25,
       "region": "AMERICAS"
@@ -91,7 +91,7 @@
       "region": "WORLD"
     },
     {
-      "fact": "From 5–70 to 5–243: Nicholls 113 not out on day one.",
+      "fact": "NZ recover from 5 wickets for 70 to 243 for 5: Nicholls 113 not out on day one.",
       "headline": "NZ rescue India Test",
       "n": 29,
       "region": "OCEANIA"
@@ -103,7 +103,7 @@
   "heroes": [
     {
       "art": "shenzhen",
-      "body": "First-ever trilateral summit ends with a joint Declaration toward Peace — on the UN, nuclear arms, oil and international law: “a nuclear war cannot be won and must never be fought”. Zelensky warned of a “new Yalta”.",
+      "body": "First-ever trilateral summit ends with a joint Declaration toward Peace — on the UN, nuclear arms, oil and international law. Zelensky warned of a \"new Yalta\".",
       "headline": "Trump, Xi and Putin meet in Shenzhen",
       "kicker": "THE SUMMIT — SHENZHEN · THU 19 NOV",
       "n": 1,
@@ -129,7 +129,7 @@
   "mains": [
     {
       "art": "icj",
-      "fact": "ICJ, 9–6: the 2017 “clearance operations” against the Rohingya were genocide — ~10,000 killed. First state ever held responsible.",
+      "fact": "ICJ, 9–6: the 2017 \"clearance operations\" against the Rohingya were genocide — ~10,000 killed (est.). First state found by the ICJ to have itself committed genocide.",
       "headline": "World Court: Myanmar responsible for genocide",
       "n": 4,
       "region": "WORLD",
@@ -145,7 +145,7 @@
     },
     {
       "art": "gaza",
-      "fact": "Deepest incursion across the Yellow Line since the 2025 truce: a raid to dismantle a suspected Hamas tunnel in central Gaza.",
+      "fact": "Deepest incursion across the Gaza ceasefire line since the 2025 truce: a raid to dismantle a suspected Hamas tunnel in central Gaza.",
       "headline": "Israel ends Gaza tank raid",
       "n": 6,
       "region": "MIDDLE EAST",
@@ -170,7 +170,7 @@
     {
       "art": "suneung",
       "fact": "Scholastic Ability Test, 08:40–17:45, 1,312 centres. Flights paused for listening; AI-cheating crackdown caught 22 with phones.",
-      "headline": "551,864 sit Korea’s Suneung",
+      "headline": "551,864 registered for Korea's Suneung",
       "n": 9,
       "region": "ASIA-PACIFIC",
       "tag": "REPORTED"
@@ -193,7 +193,7 @@
     },
     {
       "art": "indonesia",
-      "fact": "DPR ends an 18-year wait: courts may seize assets of ≥Rp1bn without a conviction where the offender died, fled or cannot be found.",
+      "fact": "DPR ends an 18-year wait: courts may seize assets of ≥Rp1B without a conviction where the offender died, fled or cannot be found.",
       "headline": "Indonesia passes asset-seizure law",
       "n": 12,
       "region": "ASIA-PACIFIC",
@@ -201,7 +201,7 @@
     },
     {
       "art": "cop31",
-      "fact": "Antalya talks split over fossil-fuel phaseout; 21 issues unresolved as ministers invoke Turkey’s Divan tradition. Closes Friday.",
+      "fact": "Antalya talks split over fossil-fuel phaseout; 21 issues unresolved as ministers seek a consensus deal. Closes Friday.",
       "headline": "COP31 enters final stretch",
       "n": 13,
       "region": "EUROPE",
@@ -243,7 +243,7 @@
   "stats": [
     {
       "label": "Anthropic IPO, largest ever",
-      "num": "$81.3bn"
+      "num": "$81.3B"
     },
     {
       "label": "registered for Suneung",
@@ -254,7 +254,7 @@
       "num": "200,000"
     },
     {
-      "label": "Nvidia record quarter",
+      "label": "Nvidia −2.9% after record quarter",
       "num": "$115.8B"
     },
     {

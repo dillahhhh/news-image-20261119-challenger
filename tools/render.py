@@ -105,10 +105,8 @@ def art_anthropic():
     return f"""<svg viewBox="0 0 200 46" xmlns="http://www.w3.org/2000/svg">
 {_sky("#eaf3fb")}
 <rect x="14" y="38" width="172" height="1.6" fill="#334155"/><rect x="14" y="6" width="1.6" height="33" fill="#334155"/>
-<g fill="#c96a2e"><rect x="26" y="30" width="15" height="8"/><rect x="46" y="26" width="15" height="12"/><rect x="66" y="22" width="15" height="16"/></g>
-<g fill="#d97706"><rect x="86" y="18" width="15" height="20"/><rect x="106" y="13" width="15" height="25"/><rect x="126" y="8" width="15" height="30"/></g>
-<polyline points="20,32 46,28 66,24 86,19 106,15 126,10 152,4" fill="none" stroke="#b45309" stroke-width="2.4"/>
-<polygon points="152,4 143,4 150,10" fill="#b45309"/>
+<g fill="#c96a2e"><rect x="26" y="22" width="15" height="16"/><rect x="46" y="22" width="15" height="16"/><rect x="66" y="22" width="15" height="16"/></g>
+<g fill="#d97706"><rect x="86" y="22" width="15" height="16"/><rect x="106" y="22" width="15" height="16"/><rect x="126" y="22" width="15" height="16"/></g>
 <text x="16" y="14" font-family="sans-serif" font-size="9" font-weight="bold" fill="#334155">$81.3B IPO</text>
 <rect x="148" y="28" width="46" height="14" rx="2" fill="#111827"/><text x="171" y="38" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">ANT $83</text>
 </svg>"""
@@ -229,7 +227,6 @@ def art_cop31():
 <g fill="#5da85d"><ellipse cx="59" cy="18" rx="8" ry="5"/><ellipse cx="74" cy="29" rx="7" ry="4.6"/><ellipse cx="68" cy="11" rx="5" ry="3.4"/></g>
 <path d="M47 23 a19 19 0 0 1 38 0" fill="none" stroke="#e8f4f8" stroke-width="1.2"/>
 <g><rect x="150" y="5" width="9" height="28" rx="4" fill="#e8e8e8" stroke="#94a3b8" stroke-width="1.4"/><rect x="152" y="20" width="5" height="12" fill="#e11d2e"/><circle cx="154.5" cy="36" r="6.4" fill="#e11d2e"/><circle cx="154.5" cy="5" r="4.4" fill="#e8e8e8" stroke="#94a3b8" stroke-width="1.4"/></g>
-<text x="154" y="45" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#334155" text-anchor="middle">+1.5°C</text>
 <rect x="100" y="30" width="40" height="11" rx="2" fill="#0f766e"/><text x="120" y="38" font-family="sans-serif" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">COP31</text>
 </svg>"""
 
@@ -426,8 +423,8 @@ def build_html(data):
     border-bottom: 2px solid #111; padding-bottom: 2px; margin-bottom: 4px;
   }}
   .briefbox {{ flex: 1; }}
-  .briefs {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px 12px; }}
-  .brief {{ font-size: 10px; line-height: 1.3; color: #222; }}
+  .briefs {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px 12px; grid-auto-flow: column; grid-template-rows: repeat(6, auto); }}
+  .brief {{ font-size: 11px; line-height: 1.35; color: #222; }}
   .brief b {{ color: #111; }}
   .legend {{
     display: flex; justify-content: center; gap: 16px; margin-top: 3px;
